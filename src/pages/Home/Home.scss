@@ -1,0 +1,61 @@
+
+.main{
+    &__banner{
+        position: relative;
+    background: url('../../images/1\ 1.png');
+    height: 745px;
+    }
+    
+    &__title{
+        position: absolute;
+        left: 925px;
+        top: 400px;
+    }
+    h2{
+        font-weight: 500;
+font-size: 18px;
+color: #22262a;
+    }
+    span{
+        font-weight: 700;
+font-size: 80px;
+color: #22262a;
+    }
+    p{
+        font-weight: 500;
+font-size: 18px;
+color: #22262a;
+    }
+    &__btns{
+        display: flex;
+        margin-top: 55px;
+        column-gap: 40px;
+        button{
+            width: 147px;
+    height: 35px;
+    background: #22262a;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+        }
+    }
+    &__photos{
+        &__container{
+            display: flex;
+        }
+        display: flex;
+        margin-top: 120px;
+        &__left{
+        }
+        &__bottom{
+           display: flex;
+           margin-top: 18px;
+           column-gap: 20px;
+        } 
+        &__right{
+            margin-left: 25px;
+        }
+    }
+}
